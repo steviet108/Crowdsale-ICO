@@ -39,7 +39,7 @@ So far you have downloaded the Metamask browser extension from the installations
 
 Next you will want to connect Metamask with Ganache, to do so, first open Ganache and select the Quickstart option. You should see something like this: 
 ![ganache](Resources/Ganache_image.png) and you will want to copy the ``` RPC SERVER ```. Then navigate back to your Metamask wallet and top center of the Metamask window select the Networks tab. Select ``` Add Network ```, and copy the Network Name, New RPC URL and Chain ID.
-![Metamask_Ganache_Settings](Metamask_Ganache_Settings_image.png)
+![Metamask_Ganache_Settings](Resources/Gif_Metamask_Network_Settings.gif)
 Now that you have set up Metamask to connect to your private blockchain on Ganache you are almost ready. Navigate back to Ganache and while in the Accounts section, you will see 10 distinct calid Ethereum Address's. These represent 10 distinct Accounts that will help to test the Smart Contract Functions. Click on the Key icon  The last thing to do is head back to Remix and Compile the 2 files:
 ``` KaseiCoinCrowdsale.sol ```
 ``` KaseiCoin.sol ``` 
