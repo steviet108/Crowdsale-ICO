@@ -36,7 +36,10 @@ This smart contract is written in Solidity and I used the Remix IDE to compile a
 ### Setting up MetaMask
 
 So far you have downloaded the Metamask browser extension from the installations Guide in this README.md. You should be able to select the Metamask icon in the top right corner of your browser window and sign in to your Metamask wallet. Next you will want to connect Metamask with Ganache, to do so, first open Ganache and select the Quickstart option. You should see something like this: 
-![ganache](Resources/Ganache_image.png) Copy the ``` RPC SERVER ``` then navigate back to your Metamask wallet and top center of the Metamask window select the Networks tab. Select ``` Add Network ```, and copy the Network Name, New RPC URL and Chain ID.
+
+![ganache](Resources/Ganache_image.png)
+
+Copy the ``` RPC SERVER ``` then navigate back to your Metamask wallet and top center of the Metamask window select the Networks tab. Select ``` Add Network ```, and copy the Network Name, New RPC URL and Chain ID.
 
 ![Metamask_Ganache_Settings](Resources/Gif_Connect_MM_Ganache.gif)
 
