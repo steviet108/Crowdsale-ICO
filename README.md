@@ -41,7 +41,7 @@ So far you have downloaded the Metamask browser extension from the installations
 ![Metamask_Ganache_Settings](Resources/Gif_Metamask_Network_Settings.gif)
 
 
-Now that you have set up Metamask to connect to your private blockchain on Ganache you are almost ready. Navigate back to Ganache and while in the Accounts section, you will see 10 distinct calid Ethereum Address's. These represent 10 distinct Accounts that will help to test the Smart Contract Functions. Click on the Key icon  The last thing to do is head back to Remix and Compile the 2 files:
+Now that you have set up Metamask to connect to your private blockchain on Ganache you are almost ready. Navigate back to Ganache and while in the Accounts section, you will see 10 distinct valid Ethereum Address's. These represent 10 distinct Accounts that will help to test the Smart Contract Functions. Click on the Key icon and copy & paste the private key for the first Ganache account.  The last thing to do is head back to Remix and Compile the 2 files:
 ``` KaseiCoinCrowdsale.sol ```
 ``` KaseiCoin.sol ``` 
 After the files have been compiled, select the Deploy and Run Icon in the Icon Panel on the left side of Remix window. Navigate to the Environments tab and scroll down to ``` Injected Web3 ``` . The Metamask browser extension window will open on the top right corner of your browser window. Select the connect to Remix tab.  Then you can upload the ``` KaseiCoinCrowdsale.sol ``` and ``` KaseiCoin.sol ``` files into Remix. It will be necessary to compile and deploy before interacting with the smart contract. The KaseiCoinCrowdsale contract inherits ERC-20 Standards from the OpenZepplin library including:
