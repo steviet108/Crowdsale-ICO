@@ -76,3 +76,5 @@ MIT
 # Preview of Smart Contract Funtionality
 ---
 ![GIF](Resources/Gif_KCDeployer.gif)
+
+![GIF](Resources/Gif_KaseiCoinCrowdsale_feature.gif)
