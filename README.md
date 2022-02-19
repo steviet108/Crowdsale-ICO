@@ -77,4 +77,4 @@ MIT
 ---
 ![GIF](Resources/Gif_KCDeployer.gif)
 
-![GIF](Resources/Gif_KaseiCoinCrowdsale_feature.gif)
+![GIF](Resources/Gif_KaseiCoinCrowdsale_features.gif)
