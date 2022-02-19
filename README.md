@@ -75,3 +75,4 @@ MIT
 
 # Preview of Smart Contract Funtionality
 ---
+![GIF](Resources/KCDeployer.gif)
