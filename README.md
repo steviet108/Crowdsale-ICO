@@ -41,7 +41,11 @@ So far you have downloaded the Metamask browser extension from the installations
 ![Metamask_Ganache_Settings](Resources/Gif_Connect_MM_Ganache.gif)
 
 
-Now that you have set up Metamask to connect to your private blockchain on Ganache you are almost ready. Navigate back to Ganache and while in the Accounts section, you will see 10 distinct valid Ethereum Address's. These represent 10 distinct Accounts that will help to test the Smart Contract Functions. Click on the Key icon and copy & paste the private key for the first Ganache account. ![Metamask](Resources/Gif_Add_Account.gif) The last thing to do is head back to Remix and Compile the 2 files:
+Now that you have set up Metamask to connect to your private blockchain on Ganache you are almost ready. Navigate back to Ganache and while in the Accounts section, you will see 10 distinct valid Ethereum Address's. These represent 10 distinct Accounts that will help to test the Smart Contract Functions. Click on the Key icon and copy & paste the private key for the first Ganache account. 
+
+![Metamask](Resources/Gif_Add_Account.gif)
+
+The last thing to do is head back to Remix and Compile the 2 files:
 
 ``` KaseiCoinCrowdsale.sol ```
 
@@ -59,8 +63,13 @@ After the files have been compiled, select the Deploy and Run Icon in the Icon P
 
 - Refundable Post Delivery Crowdsale
 
-It is important to Compile the 2 files ``` KaseiCoinCrowdsale.sol ``` & ``` KaseiCoin.sol ``` Then you want to Deploy them. First you must deploy the ``` KaseiCoinCrowdsaleDeployer ``` In Remix select the Contract Drop Down Tab and select ``` KaseiCoinCrowdsaleDeployer ```, then fill out the input box's next to Deploy tab. ![Deployer](Resources/Gif_KCDeployer.gif)
-Select Deploy, and Sign the transaction in the MetaMask window. That will launch the Token Address and Contract Address. Next Copy the Contract address and go back to the Contract Drop Down Tab and select the ``` KaseiCoinCrowdsale ``` Contract. Then paste the address you copied earlier into the ``` At Address ``` tab. This will look like this. ![Crowdsale](Resources/Gif_KSC.gif)
+It is important to Compile the 2 files ``` KaseiCoinCrowdsale.sol ``` & ``` KaseiCoin.sol ``` Then you want to Deploy them. First you must deploy the ``` KaseiCoinCrowdsaleDeployer ``` In Remix select the Contract Drop Down Tab and select ``` KaseiCoinCrowdsaleDeployer ```, then fill out the input box's next to Deploy tab.
+
+![Deployer](Resources/Gif_KCDeployer.gif)
+
+Select Deploy, and Sign the transaction in the MetaMask window. That will launch the Token Address and Contract Address. Next Copy the Contract address and go back to the Contract Drop Down Tab and select the ``` KaseiCoinCrowdsale ``` Contract. Then paste the address you copied earlier into the ``` At Address ``` tab. This will look like this.
+
+![Crowdsale](Resources/Gif_KSC.gif)
 
 
 
