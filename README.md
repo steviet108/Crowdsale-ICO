@@ -2,8 +2,7 @@
 
 ![ICO](Resources/ICO_image.png)
 
-
-Demonstration of a blockchain based Crowdsale that accepts Ether for a new token called Kasei Coin. This token Launch is built to be trustless, permissionless and immutable.  The Solidity Smart Contracts accept Ether from people and distribute Kasei Coin. This ICO Demo utilizez ERC-20 Standards for Initial Coin Offerings including:
+ICO Crowdsales are a novel way for buisnesses to raise capital. This is a demonstration of a blockchain based Crowdsale that accepts Ether in exchange for a token called Kasei Coin. The smart contracts distributes the kaseicoin to the buyers wallet. I have deployed the Solidity Smart Contracts to Remix where I have connected Ganache and Metamask to simulate a complete blockchain development suite. This token Launch inherits some basic characteristics of blockchain including being trustless, permissionless and immutable. This ICO Demo utilizez ERC-20 Standards for Initial Coin Offerings including:
 
 - balanceOf
 
@@ -19,7 +18,8 @@ Demonstration of a blockchain based Crowdsale that accepts Ether for a new token
 
 
 ## Technologies & Installation
-This ICO demonstration was written with Solidity and I used Remix IDE. This demonstration was deployed to a local blockchain called Ganache. To install Ganache please see this link:  [Ganache](https://trufflesuite.com/ganache/) and select the installer for your OS. I have also used MetaMask as a Provider for the Ganache private blockchain. Please see this link [MetaMask](https://metamask.io/download/) and select your OS. This will install the MetaMask browser extension. 
+
+This demonstration was deployed to a local blockchain called Ganache. To install Ganache please see this link:  [Ganache](https://trufflesuite.com/ganache/) and select the installer for your OS. I have also used MetaMask as a Provider for the Ganache private blockchain. Please see this link [MetaMask](https://metamask.io/download/) and select your OS. This will install the MetaMask browser extension. 
 
 What is Ganache?
 
@@ -35,9 +35,7 @@ This smart contract is written in Solidity and I used the Remix IDE to compile a
 
 ### Setting up MetaMask
 
-So far you have downloaded the Metamask browser extension from the installations Guide in this README.md. You should be able to select the Metamask icon in the top right corner of your browser window and sign in to your Metamask wallet.
-
-Next you will want to connect Metamask with Ganache, to do so, first open Ganache and select the Quickstart option. You should see something like this: 
+So far you have downloaded the Metamask browser extension from the installations Guide in this README.md. You should be able to select the Metamask icon in the top right corner of your browser window and sign in to your Metamask wallet. Next you will want to connect Metamask with Ganache, to do so, first open Ganache and select the Quickstart option. You should see something like this: 
 ![ganache](Resources/Ganache_image.png) and you will want to copy the ``` RPC SERVER ```. Then navigate back to your Metamask wallet and top center of the Metamask window select the Networks tab. Select ``` Add Network ```, and copy the Network Name, New RPC URL and Chain ID.
 
 ![Metamask_Ganache_Settings](Resources/Gif_Metamask_Network_Settings.gif)
