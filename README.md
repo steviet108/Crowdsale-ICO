@@ -59,8 +59,8 @@ After the files have been compiled, select the Deploy and Run Icon in the Icon P
 
 - Refundable Post Delivery Crowdsale
 
-It is important to Compile the 2 files ``` KaseiCoinCrowdsale.sol ``` & ``` KaseiCoin.sol ``` Then you want to Deploy them. First you must deploy the ``` KaseiCoinCrowdsaleDeployer ``` In Remix select the Contract Drop Down Tab and select ``` KaseiCoinCrowdsaleDeployer ```, then fill out the input box's next to Deploy tab. ![Deployer](Gif_KCDeployer.gif)
-Select Deploy, and Sign the transaction in the MetaMask window. That will launch the Token Address and Contract Address. Next Copy the Contract address and go back to the Contract Drop Down Tab and select the ``` KaseiCoinCrowdsale ``` Contract. Then paste the address you copied earlier into the ``` At Address ``` tab. This will look like this. ![Crowdsale](Resources/KSC.gif)
+It is important to Compile the 2 files ``` KaseiCoinCrowdsale.sol ``` & ``` KaseiCoin.sol ``` Then you want to Deploy them. First you must deploy the ``` KaseiCoinCrowdsaleDeployer ``` In Remix select the Contract Drop Down Tab and select ``` KaseiCoinCrowdsaleDeployer ```, then fill out the input box's next to Deploy tab. ![Deployer](Resources/Gif_KCDeployer.gif)
+Select Deploy, and Sign the transaction in the MetaMask window. That will launch the Token Address and Contract Address. Next Copy the Contract address and go back to the Contract Drop Down Tab and select the ``` KaseiCoinCrowdsale ``` Contract. Then paste the address you copied earlier into the ``` At Address ``` tab. This will look like this. ![Crowdsale](Resources/Gif_KSC.gif)
 
 
 
