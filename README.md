@@ -105,4 +105,4 @@ MIT
 ![GIF](Resources/Gif_claimRefund_feature.gif)
 
 
-![GIF](
+
