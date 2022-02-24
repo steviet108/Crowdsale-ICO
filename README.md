@@ -66,34 +66,35 @@ Select Deploy, and Sign the transaction in the MetaMask window. That will launch
 
 # Preview of Smart Contract Funtionality
 ---
-![GIF](Resources/Gif_KCDeployer.gif)
 
 ## KaseiCoinCrowdsaleDeployer contract
 - Here is the KaseicoinCrowdsaleDeployer contract. You can see this is where I name the coin, give it a Ticker, Supply the Originating Address and set the amount of Coins that the Crowdsale will try to sell. This contract is what deploys the Crowdsale contract.
 
-![GIF](Resources/Gif_KSC.gif)
+![GIF](Resources/Gif_KCDeployer.gif)
 
 ## KaseiCoinCrowdsale
 - Here is the KaseiCoinCrowdsale contract. You can see the KaseiCoinCrowdsale contract getting deployed. Also you can see the functions that come with this contract. Note that the KaseiCoinCrowdsale contract has now been deployed and participants may now interact with the contract and purchase tokens.
 
-![GIF](Resources/Gif_KSC_Features.gif)
+![GIF](Resources/Gif_KSC.gif)
 
 ## KaseiCoinCrowdsale Contract Features
 - Here is the KaseiCoinCrowdsale contract features.
 - Functions include: buyTokens, balanceOf, goal, rate, token, wallet, weiRaised. These functions were inherited from the OpenZepplin Crowdsale file that we imported at the top of the KaseiCoinCrowdsale.sol file. They are standard crowdsale functions.
 
-![GIF](Resources/Gif_Account1_Purchase.gif)
+![GIF](Resources/Gif_KSC_Features.gif)
 
 ## Account 1 Purchase Tokens
 - Here you can see participants interacting with the crowdsale and purchasing tokens. The purchase is verified on the Ganache local blockchain as well as Metemask.
 
-![GIF](Resources/Gif_claimRefund_feature.gif)
+![GIF](Resources/Gif_Account1_Purchase.gif)
 
 ## claimRefund Features
 - Here you can see the claimRefund Feature has been included in the KaseicoinCrowdsale Contract. The CappedCrowdsale and TimedCrowdsale functions were also included. I was able to inherit this function by importing the OpenZepplin files:
 - CappedCrowdsale.sol
 - TimedCrowdsale.sol
 - RefundPostDeliveryCrowdsale.sol
+
+![GIF](Resources/Gif_claimRefund_feature.gif)
 
 
 ## Contributors
