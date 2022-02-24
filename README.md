@@ -64,23 +64,6 @@ Select Deploy, and Sign the transaction in the MetaMask window. That will launch
 ![Crowdsale](Resources/Gif_KSC.gif)
 
 
-
-
-## Contributors
-
-stephenthomas43@gmail.com
-
-[Trilogy Education Services](https://www.trilogyed.com/)
-
-[UC Berkeley Extension ](https://extension.berkeley.edu/)
-
-
-
-## License 
-
-MIT
-
-
 # Preview of Smart Contract Funtionality
 ---
 ![GIF](Resources/Gif_KCDeployer.gif)
@@ -113,3 +96,16 @@ MIT
 - RefundPostDeliveryCrowdsale.sol
 
 
+## Contributors
+
+stephenthomas43@gmail.com
+
+[Trilogy Education Services](https://www.trilogyed.com/)
+
+[UC Berkeley Extension ](https://extension.berkeley.edu/)
+
+
+
+## License 
+
+MIT
