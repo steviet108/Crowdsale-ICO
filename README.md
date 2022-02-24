@@ -19,7 +19,7 @@ ICO Crowdsales are a novel way for buisnesses to raise capital. This is a demons
 
 ## Technologies & Installation
 
-This demonstration was deployed to a local blockchain called Ganache. To install Ganache please see this link:  [Ganache](https://trufflesuite.com/ganache/) and select the installer for your OS. I have also used MetaMask as a Provider for the Ganache private blockchain. Please see this link [MetaMask](https://metamask.io/download/) and select your OS. This will install the MetaMask browser extension. 
+This demonstration utilizes Ganache. Ganache software that mimics a blockchain for development purposes. To install Ganache please see this link:  [Ganache](https://trufflesuite.com/ganache/) and select the installer for your OS. I have also used MetaMask as a Provider for the Ganache private blockchain. Please see this link [MetaMask](https://metamask.io/download/) and select your OS. This will install the MetaMask browser extension. 
 
 What is Ganache?
 
@@ -39,12 +39,11 @@ So far you have downloaded the Metamask browser extension from the installations
 
 ![ganache](Resources/Ganache_image.png)
 
-Copy the ``` RPC SERVER ``` then navigate back to your Metamask wallet and top center of the Metamask window select the Networks tab. Select ``` Add Network ```, and copy the Network Name, New RPC URL and Chain ID.
+Copy the ``` RPC SERVER ``` then navigate back to your Metamask wallet and top center of the Metamask window select the Networks tab. Select ``` Add Network ```, and copy the Network Name, New RPC URL and Chain ID from Ganache.
 
 ![Metamask_Ganache_Settings](Resources/Gif_Connect_MM_Ganache.gif)
 
-
-Now that you have set up Metamask to connect to your private blockchain on Ganache you are almost ready. Navigate back to Ganache and while in the Accounts section, you will see 10 distinct valid Ethereum Address's. These represent 10 distinct Accounts that will help to test the Smart Contract Functions. Click on the Key icon and copy & paste the private key for the first Ganache account. 
+Now that you have set up Metamask to connect to your private blockchain on Ganache you are almost ready. Navigate back to Ganache and while in the Accounts section, you will see 10 distinct valid Ethereum Address's. These represent 10 distinct Accounts that will help to test the Smart Contract Functions. Click on the Key icon and copy & paste the private key for the first Ganache account. Opens Metamask and click on the colored circle in the top right corner, scroll down to ``` Import Account ``` and paste the private key from Ganache into Metamask. This will connect the address's from Ganache to your Metamask wallet. Repeat this for as many Accounts you want to use for the purposes of testing Functions in the Smart Contracts.
 
 ![Metamask](Resources/Gif_Add_Account.gif)
 
@@ -54,19 +53,9 @@ The last thing to do is head back to Remix and Compile the 2 files:
 
 ``` KaseiCoin.sol ``` 
 
-After the files have been compiled, select the Deploy and Run Icon in the Icon Panel on the left side of Remix window. Navigate to the Environments tab and scroll down to ``` Injected Web3 ``` . The Metamask browser extension window will open on the top right corner of your browser window. Select the connect to Remix tab.  Now you have sucessfully Deployed smart contracts to a local blockchain with Remix, Metamask and Ganache. The KaseiCoinCrowdsale contract inherits ERC-20 Standards from the OpenZepplin library including:
+After the files have been compiled, select the Deploy and Run Icon in the Icon Panel on the left side of Remix window. Navigate to the Environments tab and scroll down to ``` Injected Web3 ``` . Metamask will open and you need to select the Accounts you want to connect. Select the connect to Remix tab.  Now you have sucessfully connected to a local blockchain Ganache with Remix and Metamask. 
 
-- Crowdsale
-
-- Minted Crowdsale
-
-- Capped Crowdsale
-
-- Timed Crowdsale
-
-- Refundable Post Delivery Crowdsale
-
-It is important to Compile the 2 files ``` KaseiCoinCrowdsale.sol ``` & ``` KaseiCoin.sol ``` Then you want to Deploy them. First you must deploy the ``` KaseiCoinCrowdsaleDeployer ``` In Remix select the Contract Drop Down Tab and select ``` KaseiCoinCrowdsaleDeployer ```, then fill out the input box's next to Deploy tab.
+It is important to Compile the 2 files ``` KaseiCoinCrowdsale.sol ``` & ``` KaseiCoin.sol ``` Then you want to Deploy them. First you must deploy the ``` KaseiCoinCrowdsaleDeployer ``` In Remix select the Contract Drop Down Tab and select ``` KaseiCoinCrowdsaleDeployer ```, then fill out the input box's next to Deploy tab including the name of Token, Ticker, Origin address and Goal of ICO.
 
 ![Deployer](Resources/Gif_KCDeployer.gif)
 
