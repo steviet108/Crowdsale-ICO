@@ -98,7 +98,7 @@ MIT
 
 ![GIF](Resources/Gif_KSC.gif)
 
-![GIF](Resources/Gif_KSC_features.gif)
+![GIF](Resources/Gif_KSC_Features.gif)
 
 ![GIF](Resources/Gif_Account1_Purchase.gif)
 
