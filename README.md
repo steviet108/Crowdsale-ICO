@@ -96,9 +96,9 @@ MIT
 ---
 ![GIF](Resources/Gif_KCDeployer.gif)
 
-![GIF](Resources/Gif_KCS.gif)
+![GIF](Resources/Gif_KSC.gif)
 
-![GIF](Resources/Gif_KCS_features.gif)
+![GIF](Resources/Gif_KSC_features.gif)
 
 ![GIF](Resources/Gif_Account1_Purchase.gif)
 
